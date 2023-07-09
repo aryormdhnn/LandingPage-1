@@ -22,3 +22,12 @@
     
 }
 
+.btn-hero {
+    background-color: #FA6444;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
