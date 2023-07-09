@@ -1,6 +1,8 @@
 .hero{
     padding: 0 120px;
     background: url(../assets/Background.png) no-repeat;
+    background-size: cover;
+
 }
 
 .hero-text h1{
@@ -14,10 +16,52 @@
     font-size: 18px;
     font-weight: 400;
     color: #6d6d6d;
-    margin-bottom: 40px;
+    margin-bottom: 24px;
+}
+
+
+.hero-image{
+    position: center;
+    margin: 0 auto;
+    text-align: center;
+    
 }
 
 .hero-image img{
     width: 621px;
     height: 621px;
+
+}
+
+.btn-hero{
+    background-color: #FA6444;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 30px;
+    border: none;
+    cursor: pointer;
+}
+
+.divider{
+    width: 20%;
+    height: 1px;
+    background-color: #E5E5E5;
+    margin: 24px 0;
+}
+
+.trusted-brand{
+    margin: 40px 0;
+}
+
+.trusted-brand h5{
+    font-size: 18px;
+    font-weight: 600;
+    color: #6d6d6d;
+    margin-bottom: 24px;
+}
+
+.trusted-brand img{
+    width: 100px;
+    height: 29px;
 }
