@@ -1,12 +1,12 @@
 import React from 'react'
-import Header from './components/Header.jsx'
-import Hero from './components/Hero.jsx'
-import Facts from './components/Facts.jsx'
-import Feature from './components/Feature.jsx'
-import Section from './components/Section.jsx'
-import Testimonial from './components/Testimonial.jsx'
-import Blog from './components/Blog.jsx'
-import Footer from './components/Footer.jsx'
+import Header from './Header.jsx'
+import Hero from './Hero.jsx'
+import Facts from './Facts.jsx'
+import Feature from './Feature.jsx'
+import Section from './Section.jsx'
+import Testimonial from './Testimonial.jsx'
+import Blog from './Blog.jsx'
+import Footer from './Footer.jsx'
 
 
 const Index = () => {
