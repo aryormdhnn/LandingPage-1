@@ -1,7 +1,7 @@
 import ImageHero from '../assets/ImageHero.png'
-import logo1 from '../assets/logo1.png'
-import logo2 from '../assets/logo2.png'
-import logo3 from '../assets/logo3.png'
+import logo1 from '../assets/Logo1.png'
+import logo2 from '../assets/Logo2.png'
+import logo3 from '../assets/Logo3.png'
 import '../css/Hero.css'
 
 const Hero = () => {
