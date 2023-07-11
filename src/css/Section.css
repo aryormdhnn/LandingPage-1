@@ -1,22 +1,55 @@
-.section h1{
+.section h1 {
     font-size: 40px;
     font-weight: 700;
     color: #000000;
     margin-bottom: 20px;
 }
 
-.section p{
+.section p {
     font-size: 18px;
     font-weight: 400;
     color: #717171;
     margin-bottom: 20px;
 }
 
-.section1{
+.section1 {
     margin: 100px 120px;
 }
 
 .section2 {
     padding: 100px 120px;
     background-color: #F8FBFB;
+}
+
+@media screen and (max-width: 768px) {
+    .section1 {
+        margin: 50px 20px;
+    }
+
+    .section h1 {
+        font-size: 32px;
+    }
+
+    .section1 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section2 {
+        padding: 50px 20px;
+    }
+
+    .section2 img {
+        width: 100%;
+        height: auto;
+        margin-top: 24px;
+    }
+
+    .section h1 {
+        font-size: 30px;
+    }
+
+    .section p {
+        font-size: 16px;
+    }
 }

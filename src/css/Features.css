@@ -1,17 +1,17 @@
-.features{
+.features {
     padding: 100px 120px;
     background-color: #F8FBFB;
     text-align: center;
 }
 
-.features h1{
+.features h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 40px;
     text-align: center;
 }
 
-.features h4{
+.features h4 {
     font-size: 22px;
     font-weight: 700;
     text-align: center;
@@ -19,7 +19,7 @@
     margin-bottom: 16px;
 }
 
-.features p{
+.features p {
     font-size: 18px;
     font-weight: 400;
     margin-bottom: 40px;
@@ -27,9 +27,24 @@
     color: #42444f;
 }
 
-
-.features img{
+.features img {
     width: 360px;
     height: 360px;
     margin-bottom: 24px;
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+        padding: 60px 20px;
+    }
+    .features h1 {
+        font-size: 32px;
+        margin-bottom: 24px;
+    }
+
+    .features img {
+        width: 250px;
+        height: auto;
+        margin-bottom: 24px;
+    }
 }

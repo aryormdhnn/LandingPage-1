@@ -1,9 +1,10 @@
 .background {
     background: url(../assets/Background.png) no-repeat;
+    padding: 40px 60px;
 }
 
 .header {
-    padding: 20px 120px;
+    padding: 20px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -19,7 +20,6 @@
     margin-right: 10px;
     font-size: 18px;
     font-weight: 400;
-    
 }
 
 .btn-hero {
@@ -30,4 +30,26 @@
     padding: 12px 30px;
     border: none;
     cursor: pointer;
+}
+
+/* Responsiveness */
+
+@media screen and (max-width: 768px) {
+    .background {
+        background: url(../assets/Background.png) no-repeat;
+        padding: 16px 20px;
+    }
+
+    .header {
+        padding: 20px;
+    }
+
+    .menu-nav {
+        margin-top: 20px;
+    }
+
+    .ml-auto {
+        margin-left: auto;
+        margin-top: 20px;
+    }
 }

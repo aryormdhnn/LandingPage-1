@@ -14,27 +14,27 @@ const Blog = () => {
                     your next landing page.
                 </p>
             </div>
-                <div className="row">
-                    <div className="col-md-6">
-                        <div className="card border-0">
-                            <img src={imageblog} alt="blog"/>
-                            <div className="card-body">
-                                <p className="blog-text">November 25, 2022</p>
-                                <h5 className="blog-title">A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021</h5>
-                            </div>
+            <div className="row">
+                <div className="col-md-6">
+                    <div className="card border-0">
+                        <img src={imageblog} alt="blog"/>
+                        <div className="card-body">
+                            <p className="blog-text">November 25, 2022</p>
+                            <h5 className="blog-title">A Holiday Tradition: Tax Extenders Slated to Expire at End of 2021</h5>
                         </div>
                     </div>
-                    <div className="col-md-6">
-                        <div className="card border-0">
-                            <img src={imageblog2} alt="blog"/>
-                            <div className="card-body">
-                                <p className="blog-text">November 25, 2022</p>
-                                <h5 className="blog-title">What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?</h5>
-                            </div>
+                </div>
+                <div className="col-md-6">
+                    <div className="card border-0">
+                        <img src={imageblog2} alt="blog"/>
+                        <div className="card-body">
+                            <p className="blog-text">November 25, 2022</p>
+                            <h5 className="blog-title">What Do Global Minimum Tax Rules Mean for Corporate Tax Policies?</h5>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
     )
 }
 

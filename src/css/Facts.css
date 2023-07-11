@@ -1,4 +1,4 @@
-.facts{
+.facts {
     padding: 40px 0;
     background: url(../assets/background-facts.png) no-repeat;
     background-size: cover;
@@ -6,14 +6,38 @@
     text-align: center;
 }
 
-.facts h1{
+.facts h1 {
     font-size: 48px;
     font-weight: 700;
     margin-bottom: 20px;
 }
 
-.facts p{
+.facts p {
     font-size: 18px;
     font-weight: 400;
-    color: #CBD5E1
+    color: #CBD5E1;
+}
+
+@media screen and (max-width: 768px) {
+    .facts {
+        padding: 20px;
+    }
+
+    .facts .row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .facts .col-lg-4,
+    .facts .col-md-4,
+    .facts .col-sm-4,
+    .facts .col-4 {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .facts h1 {
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
 }
