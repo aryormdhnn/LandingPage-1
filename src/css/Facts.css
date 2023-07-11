@@ -1,6 +1,6 @@
 .facts {
     padding: 40px 0;
-    background: url(../assets/background-facts.png) no-repeat;
+    background: url("../assets/background-facts.png") no-repeat;
     background-size: cover;
     color: #fff;
     text-align: center;
@@ -20,7 +20,7 @@
 
 @media screen and (max-width: 768px) {
     .facts {
-        padding: 20px;
+        padding: 40px 20px;
     }
 
     .facts .row {
@@ -28,16 +28,20 @@
         align-items: center;
     }
 
+    .facts .col-4,
     .facts .col-lg-4,
     .facts .col-md-4,
-    .facts .col-sm-4,
-    .facts .col-4 {
+    .facts .col-sm-4 {
         width: 100%;
-        margin-bottom: 20px;
+        margin-bottom: 32px;
     }
 
     .facts h1 {
         font-size: 36px;
-        margin-bottom: 10px;
+    }
+
+    .facts p {
+        font-size: 16px;
+        margin-bottom: 0;
     }
 }
