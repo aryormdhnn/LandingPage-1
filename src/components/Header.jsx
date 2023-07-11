@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, Button } from 'react-bootstrap';
 import '../css/Header.css';
-import logo from '../assets/logo.png';
+import logo from '../assets/Logo.png';
 
 const Header = () => {
   return (
