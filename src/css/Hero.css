@@ -87,7 +87,7 @@
 
 @media (max-width: 767.98px) {
     .hero {
-        padding: 40px 30px;
+        padding: 60px 30px;
     }
 
     .hero-text h1 {
@@ -95,7 +95,7 @@
     }
 
     .hero-text p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     .trusted-brand img {
